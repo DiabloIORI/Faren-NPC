@@ -2,7 +2,7 @@
 
 //Solaufein romance conflict
 IF
-Global("FHFSolaConflict1","GLOBAL",0)
+Global("FHFSolaRomanceConflict","GLOBAL",0)
 OR(2)
 Global("FHFarenRomanceActive","GLOBAL",1)
 Global("FHFarenRomanceActive","GLOBAL",2)
@@ -16,7 +16,7 @@ InParty("Sola")
 InParty("FHFRN")
 THEN
 RESPONSE #100
-SetGlobal("FHFSolaConflict1","GLOBAL",1)
+SetGlobal("FHFSolaRomanceConflict1","GLOBAL",1)
 END
 
 IF
